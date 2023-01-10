@@ -1,3 +1,7 @@
 :root {
     font-size: 16px;
 }
+body {
+    background: radial-gradient(rgb(237, 234, 226), rgb(5, 149, 96));
+    height:100vh;
+}
