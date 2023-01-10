@@ -5,3 +5,10 @@ body {
     background: radial-gradient(rgb(237, 234, 226), rgb(5, 149, 96));
     height:100vh;
 }
+#wrapper {
+    height: 95vh;
+    width: 80vw;
+    background: radial-gradient(rgb(237, 229, 229), rgb(46, 123, 167));
+    margin-inline:auto;
+    border-radius: 1rem;
+}
