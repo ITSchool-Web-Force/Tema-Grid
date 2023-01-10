@@ -28,6 +28,12 @@ h1 {
     text-align: center;
     padding-block-start: 0.3rem;
 }
+#image {
+    height:20vh;
+    width:auto;
+    background-image: url(business-people-discussing-business-idea-5355163-4487279.png);
+    z-index: 1;
+}
 h2 {
     text-align: center;
     padding-block-start: 0.3rem;
@@ -50,7 +56,7 @@ p {
     margin:1rem auto;
 }
 #zona-libera {
-    height: 40vh;
+    height: 20vh;
     width: 80%;
     border: 1px solid black;
     margin: 1rem auto;
