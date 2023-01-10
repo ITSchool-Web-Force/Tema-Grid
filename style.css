@@ -49,8 +49,8 @@ p {
     border-radius: 0.3rem;
 }
 #zona-libera {
-    height:40vh;
-    width:80%;
-    border:1px solid black;
-    margin-inline:0 auto;
+    height: 40vh;
+    width: 80%;
+    border: 1px solid black;
+    margin: 1rem auto;
 }
