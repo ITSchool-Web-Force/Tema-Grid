@@ -29,10 +29,7 @@ h1 {
     padding-block-start: 0.3rem;
 }
 #image {
-    height:20vh;
-    width:auto;
-    background-image: url(business-people-discussing-business-idea-5355163-4487279.png);
-    z-index: 1;
+    height:30vh;
 }
 h2 {
     text-align: center;
