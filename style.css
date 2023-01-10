@@ -12,3 +12,8 @@ body {
     margin-inline:auto;
     border-radius: 1rem;
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
