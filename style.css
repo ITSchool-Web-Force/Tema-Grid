@@ -24,3 +24,13 @@ nav a {
     border-inline-end: 0.5rem solid black;
     border-radius:0.7rem;
 }
+h1 {
+    text-align: center;
+    padding-block-start: 0.3rem;
+}
+h2 {
+    text-align: center;
+    padding-block-start: 0.3rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
