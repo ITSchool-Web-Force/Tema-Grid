@@ -5,11 +5,16 @@ body {
     background: radial-gradient(rgb(237, 234, 226), rgb(5, 149, 96));
     height:100vh;
 }
+* {
+    margin: 0;
+}
 #wrapper {
-    height: 95vh;
-    width: 80vw;
+    --margin: 1rem;
+
+    margin: var(--margin) auto;
+    min-height: calc(100vh-2*var(--margin));
+    width: 80ch;
     background: radial-gradient(rgb(237, 229, 229), rgb(46, 123, 167));
-    margin-inline:auto;
     border-radius: 1rem;
 }
 nav {
@@ -65,7 +70,7 @@ p {
     margin-inline: auto;
     border-radius: 0.3rem;
 }
-
+/*
 @media (min-width: 512px) {
     .container-grid {
         display: grid;
