@@ -97,7 +97,7 @@ p {
     }
     .container {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 60% 40%;
         grid-template-rows: 25% 25% 15% 35%;
         padding-block-end: 1rem;
     }
