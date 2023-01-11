@@ -59,13 +59,14 @@ p {
 }
 #zona-libera {
     border: 1px solid black;
-    height: 10vh;
     width: 90%;
+    height: 20vh;
+    margin-block-end: 1rem;
     margin-inline: auto;
     border-radius: 0.3rem;
 }
 
-@media (min-width:512px) {
+@media (min-width: 512px) {
     .container-grid {
         display: grid;
         grid-template-columns: 60% 40%;
