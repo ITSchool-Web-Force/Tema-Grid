@@ -87,7 +87,7 @@ p {
         /*grid-template-columns: 60% 40%;
         grid-template-rows: 10% 30% 10% 10% 40%;*/
         grid-template-areas: 
-        ".  Header  ."
+           "Header"
         "H2    IMAGE"
         "P     IMAGE"
         "BUTON IMAGE"
@@ -96,19 +96,9 @@ p {
 
     }
     header {
-        display: flex;
-        flex-direction: row;
-        height:5vh;
-        align-items: center;
-        padding: 0.5rem 1rem;
         grid-area: Header;
         /*grid-row: 1/2;
         grid-column: 1/3;*/
-    }
-    nav {
-        justify-content: flex-end;
-        flex-grow: 1;
-        margin-inline:1rem;
     }
     #image {
         /*grid-row:2/3;
@@ -116,39 +106,22 @@ p {
         grid-area: IMAGE;
     }
     h2 {
-        padding-block-start: 0.3rem;
-        text-transform: capitalize;
-        font-weight: bold;
-        font-size: 2rem;
         /*grid-row:2/3;
         grid-column:1/3;*/
         grid-area: H2;
     }
     
     p {
-        padding: 0.3rem;
-        text-transform: capitalize;
-        font-size: 1rem;
         /*grid-row:3/4;
         grid-column:1/2;*/
         grid-area: P;
     }
     #buton {
-        background-color: rgb(24, 154, 224);
-        color:white;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 0.7rem;
-        padding: 0.3rem 1rem;
-        border-radius: 0.3rem;
-        margin:1rem auto;
         /*grid-row:4/5;
         grid-column:1/2;*/
         grid-area: BUTON;
     }
     #zona-libera {
-        border: 1px solid black;
-        margin: 1rem auto;
         /*grid-row: 5/6;
         grid-column: 1/3;*/
         grid-area: ZONA;
