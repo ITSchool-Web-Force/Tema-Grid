@@ -16,6 +16,7 @@ body {
     min-height: calc(100vh-2*var(--margin));
     width: 80vw;
     background: radial-gradient(rgb(237, 229, 229), rgb(46, 123, 167));
+    box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(170,200,200, 0.5);
     border-radius: 1rem;
 }
 nav {
