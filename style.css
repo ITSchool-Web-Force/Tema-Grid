@@ -3,7 +3,8 @@
 }
 body {
     background: radial-gradient(rgb(237, 234, 226), rgb(5, 149, 96));
-    height:100vh;
+    min-height:100vh;
+    margin: 0;
 }
 * {
     margin: 0;
@@ -13,7 +14,7 @@ body {
 
     margin: var(--margin) auto;
     min-height: calc(100vh-2*var(--margin));
-    width: 80ch;
+    width: 80vw;
     background: radial-gradient(rgb(237, 229, 229), rgb(46, 123, 167));
     border-radius: 1rem;
 }
