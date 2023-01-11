@@ -3,7 +3,7 @@
 }
 body {
     background: radial-gradient(rgb(237, 234, 226), rgb(5, 149, 96));
-    min-height:100vh;
+    min-height: 100vh;
     margin: 0;
 }
 * {
