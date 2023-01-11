@@ -38,12 +38,10 @@ h1 {
     padding-block-start: 0.7rem;
 }
 h2 {
-    padding-block-start: 0.3rem;
     text-transform: capitalize;
     font-weight: bold;
 }
 p {
-    padding: 0.3rem;
     text-transform: capitalize;
     font-size: 1rem;
 }
