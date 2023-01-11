@@ -80,6 +80,10 @@ p {
 }
 
 @media (min-width: 512px) {
+    #wrapper {
+        height: 100vh;
+        width: 80vw;
+    }
    
     nav {
         flex-grow: 1;
