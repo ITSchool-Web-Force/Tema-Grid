@@ -135,7 +135,7 @@ p {
 }
 @media (min-width: 712px) {
     :root {
-        font-size: 17px;
+        font-size: 18px;
     }  
     #wrapper {
         width: 70vw;
@@ -157,7 +157,7 @@ p {
             font-size: 20px;
         }  
         #image {
-            width: 60%;
+            width: 50%;
             margin-inline: auto;
         }   
         #zona-libera {
