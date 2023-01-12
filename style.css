@@ -111,16 +111,13 @@ p {
     }
     #image {
         grid-area: IMAGE;
-        border:1px solid red;
     }
     h2 {
         grid-area: H2;
-        color:pink;
     }
     
     p {
         grid-area: P;
-        color:Red;
     }
     #buton {
         grid-area: BUTON;
@@ -130,7 +127,6 @@ p {
     }
     #zona-libera {
         grid-area: ZONA;
-        background-color: blueviolet;
         height: 35vh;
     }
 
