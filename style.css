@@ -148,14 +148,20 @@ p {
         margin-block-end: 1rem;
     }
 
-    @media (min-width: 1100px) {    
+    @media (min-width: 1100px) {  
+        :root {
+            font-size: 20px;
+        }  
         #image {
             width: 60%;
             margin-inline: auto;
         }
+        #buton {
+            height: 1.5rem;
+        }
     
         #zona-libera {
-            height: 38vh;
+            height: 33vh;
             background: repeating-radial-gradient(rgb(45, 19, 214), rgb(205, 142, 25) 100px);
             margin-block-end: 1rem;
         }
