@@ -131,7 +131,6 @@ p {
         margin-inline: 1rem auto;
         background: repeating-radial-gradient(rgb(11, 138, 141), rgb(200, 100, 150) 50px);
     }
-
 }
 @media (min-width: 712px) {
     :root {
@@ -140,7 +139,6 @@ p {
     #wrapper {
         width: 70vw;
     }
-
     #image {
         width: 70%;
         margin-inline: auto;
@@ -151,7 +149,6 @@ p {
         margin-block-end: 1rem;
     }
 }
-
     @media (min-width: 1100px) {  
         :root {
             font-size: 20px;
@@ -165,5 +162,4 @@ p {
             background: repeating-radial-gradient(rgb(45, 19, 214), rgb(205, 142, 25) 100px);
             margin-block-end: 1rem;
         }
-
 }
