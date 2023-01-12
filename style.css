@@ -1,0 +1,115 @@
+.block {
+
+    background: rgba(168, 192, 255, 0.17);
+    box-shadow: 8px 6px 18px -6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 35vw;
+    height: 80vh;
+    position: absolute; 
+    top: 10%;
+    left: 30%;
+  }
+
+
+.up {
+
+    display: grid;
+    grid-template-areas: 
+    'h1 navigare';
+}
+
+  .h1 {
+
+    grid-area: h1;
+    font-size: 30px;
+    margin-inline-start: 1.5rem;
+
+  }
+
+  .navigare {
+
+    grid-area: navigare;
+    text-transform: lowercase;
+    margin-block-start: 1.8rem;
+    margin-left: 5px;
+
+  }
+
+  .menu,
+  .active {
+
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+    box-shadow: 5px 0px #000000;
+    border-radius: 32px;
+    padding: 6px 10px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+  .active {
+    
+    background: #FF9494;
+    padding: 6px 10px 8px 16px;
+
+  }
+
+  .down {
+
+    display: grid;
+    margin-inline-start: 22px;
+    grid-template-areas: 
+    'text1 imagine'
+    'text2 imagine'
+    'button imagine';
+  }
+
+  .text1 {
+
+    grid-area: text1;
+
+    color: #272D38;;
+  }
+
+  .text2 {
+
+    grid-area: text2;
+
+    color: #272D38;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .imagine {
+
+    grid-area: imagine;
+    width: 70%;
+  }
+
+  .button {
+    background: #8EADD5;
+    border-radius: 8px;
+    width: 5rem;
+    height: 2rem;
+    border: #8EADD5;
+    color: white;
+    font-size: 12px;
+  }
+
+  .border {
+
+    border: 1px solid black;
+    height: 15rem;
+    margin-block-start: 2rem;
+    margin-inline-end: 1.5rem;
+    margin-inline-start: 1.5rem;
+  }
+
+  .text-border {
+    color: #FF9494;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+  }
