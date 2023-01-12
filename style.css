@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 51.04%, #EDFFF7 100%);
+    min-height: 100vh;
+    margin: 0;
+}
+.wrapper {
+    --margin: 1rem;
+
+    background: rgba(168, 192, 255, 0.17);
+    box-shadow: 0.5rem 0.25rem 1rem -0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    width: 120ch;
+    min-height: 95vh;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    display: grid;
+}
+.menu-item {
+    text-decoration: none;
+    color: black;
+    font-family: "inter", sans-serif;
+    border-inline-end: 0.5rem solid black;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem; 
+
+}
+.menu-item:hover, 
+.menu-item:active,
+.menu-item:focus {
+    background-color: #FF9494 ;
+}
+h1 {
+    font-family: "Inter";
+    font-style: italic;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-right: 25rem;
+}
+header {
+    display: grid;
+}
+nav {
+   grid-column: 2/3;
+   grid-row: 1/2;
+}
+main {
+    padding: 10rem;
+}
+.container {
+    display: grid;
+}
+h2 {
+    margin-top: 4rem;
+    width: 21rem;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    font-size: 4ch;
+    font-weight: bold;
+}
+p {
+    width: 20rem;
+    font-size:3ch;
+    text-align: justify;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.photo { 
+    width: auto;
+    height: 25rem;
+    grid-column: 2/3;
+    grid-row: 1/4;
+    border-top:2rem;
+}
+button { 
+    width: max-content;
+    height: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    background: #8EADD5;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 5rem;
+ }
+ .funnypic {
+    margin: auto;
+    width: auto;
+ }
