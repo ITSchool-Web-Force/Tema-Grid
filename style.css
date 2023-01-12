@@ -123,6 +123,7 @@ p {
     #buton {
         grid-area: BUTON;
         margin-block: 0;
+        height: 1.5rem;
     }
     #zona-libera {
         grid-area: ZONA;
@@ -133,20 +134,23 @@ p {
 
 }
 @media (min-width: 712px) {
+    :root {
+        font-size: 17px;
+    }  
     #wrapper {
-        width: 60vw;
+        width: 70vw;
     }
 
     #image {
         width: 70%;
         margin-inline: auto;
     }
-
     #zona-libera {
-        height: 38vh;
+        height: 33vh;
         background: repeating-radial-gradient(rgb(45, 19, 214), rgb(205, 142, 25) 100px);
         margin-block-end: 1rem;
     }
+}
 
     @media (min-width: 1100px) {  
         :root {
@@ -155,11 +159,7 @@ p {
         #image {
             width: 60%;
             margin-inline: auto;
-        }
-        #buton {
-            height: 1.5rem;
-        }
-    
+        }   
         #zona-libera {
             height: 33vh;
             background: repeating-radial-gradient(rgb(45, 19, 214), rgb(205, 142, 25) 100px);
