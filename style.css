@@ -131,6 +131,7 @@ p {
     #zona-libera {
         grid-area: ZONA;
         background-color: blueviolet;
+        height: 35vh;
     }
 
 }
