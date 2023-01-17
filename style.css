@@ -1,0 +1,193 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: scroll;
+}
+body {
+    background: radial-gradient(circle, #f6fffc, #bdebdf);
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content min-content min-content;
+    background-color: #c0eaff80;
+    width: 45%;
+    margin-inline: auto;
+    margin-block: 1rem;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.313rem 0.313rem 0.313rem #00000033;
+}
+.site-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-row: 1/2;
+    grid-column: 1/3;
+    align-items: start;
+}
+.name-title {
+    grid-row:1/2;
+    grid-column: 1/2;
+}
+.navigation {
+    padding-top: 1.7em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-row:1/2;
+    grid-column: 2/3;
+    align-items: start;
+}
+.nav-a {
+    grid-row:1/2;
+    grid-column: 1/2;
+    text-decoration: none;
+    color: black;
+    padding: 0.313rem 0.938rem;
+    margin-inline: 0.313rem;
+    box-shadow: 0.313rem 0px black;
+    border-radius: 0.313rem;
+    text-transform: uppercase;
+}
+.nav-b {
+    grid-row:1/2;
+    grid-column: 2/3;
+    text-decoration: none;
+    color: black;
+    padding: 0.313rem 0.938rem;
+    margin-inline: 0.313rem;
+    box-shadow: 0.313rem 0px black;
+    border-radius: 0.313rem;
+    text-transform: uppercase;
+}
+.nav-c {
+    grid-row:1/2;
+    grid-column: 3/4;
+    text-decoration: none;
+    color: black;
+    padding: 0.313rem 0.938rem;
+    margin-inline: 0.313rem;
+    box-shadow: 0.313rem 0px black;
+    border-radius: 0.313rem;
+    text-transform: uppercase;
+}
+.nav-a:hover, .nav-b:hover, .nav-c:hover {
+    background-color: #ff9494;
+}
+.ad {
+    grid-row:2/3;
+    grid-column: 1/3;
+    padding-inline:1rem;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+.text-ad {
+    grid-row:1/2;
+    grid-column: 1/2;
+}
+.title-ad {
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.description-ad {
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding-block: 1rem;
+}
+.contact-ad {
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: rgb(161, 203, 235);
+    padding:0.5rem 1rem;
+    color:white;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin-block: 1rem;
+    border-radius: 0.313rem;
+}
+.photo-ad {
+    grid-row:1/2;
+    grid-column: 2/3;
+    width: 80%;
+    margin-block: 1rem;
+    border:0;
+}
+.box {
+    grid-row:3/4;
+    grid-column: 1/3;
+    border: 0.063rem solid black;
+    margin: 1.875rem;
+    padding-top: 1.25rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.alpaca-photo {
+    width: 70%;
+    margin: 1.25rem;
+    border-radius: 0.5rem;
+}
+@media only screen and (max-width: 768px) {
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content min-content;
+        width: 80%;
+        justify-content: center;
+   }
+    .site-header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-row: 1/2;
+        grid-column: 1/2;
+   }
+    .name-title {
+        grid-row:1/2;
+        grid-column: 1/2;
+   }
+    .navigation {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-row:2/3;
+        grid-column: 1/2;
+   }
+    .nav-a {
+        grid-row:1/2;
+        grid-column: 1/2;
+   }
+    .nav-b {
+        grid-row:1/2;
+        grid-column: 2/3;
+   }
+    .nav-c {
+        grid-row:1/2;
+        grid-column: 3/4;
+   }
+    .ad {
+        grid-row:3/4;
+        grid-column: 1/2;
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content;
+   }
+    .text-ad {
+        grid-row:2/3;
+        grid-column: 1/2;
+   }
+    .photo-ad {
+        grid-row:1/2;
+        grid-column: 1/2;
+        width: 80%;
+   }
+    .box {
+        grid-row:4/5;
+        grid-column: 1/2;
+   }
+    .alpaca-photo {
+        width: 70%;
+   }
+}
