@@ -94,6 +94,19 @@ h1 {
     color: #272D38;
 }
 
+.teaser {
+    align-self: stretch;
+    text-align: center;
+}
+
+.teaser-title {
+    font-size: 20vw;
+}
+
+.teaser-caption {
+    font-size: 15vw;
+}
+
 @media (min-width: 32rem) {
     body {
         padding: 2rem;
@@ -145,5 +158,13 @@ h1 {
         grid-row: 1 / -1;
         grid-column: 2 / 3;
         justify-self: center;
+    }
+
+    .teaser-title {
+        font-size: 10rem;
+    }
+
+    .teaser-caption {
+        font-size: 6rem;
     }
 }
